@@ -1,0 +1,23 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 219,
+      "responseDate": 1550252295033,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "configBuilding": {
+          "maxDaysReservation": 5,
+          "checkinTime": 10,
+          "reservationMaxTime": 2
+        }
+      }
+    },
+    "paginationResponse": null
+  }

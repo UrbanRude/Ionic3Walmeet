@@ -1,0 +1,32 @@
+
+<ion-header class="wrapper-modal-header">
+    <div class="wrapper-modal-controls">
+      <button ion-button icon-only clear color="light" (click)="cancel()">
+          <ion-icon name="close"></ion-icon>
+      </button>
+      <button ion-button icon-only clear 
+        [color]="disabledReservationBtn ? 'light' : 'secondary'" 
+        [disabled]="disabledReservationBtn"
+        (click)="confirmSchedules()">
+        <ion-icon name="checkmark-circle"></ion-icon>
+      </button>
+    </div>
+</ion-header>
+
+<ion-content padding-left padding-right class="wrapper-modal-content">
+  <hr class="divider">
+  <p class="title-header">
+    Puedes elegir desde media hora hasta {{ configApp.reservationMaxTime }} hora(s) consecutivas para reservar una sala
+  </p> 
+  <div class="wrapper-schedule">
+    <ion-chip 
+      class="chips-schedules"
+      *ngFor="let schedule of schedules;let i = index;"
+      [color]="schedule.selected ? 'pink' : 'primary' "
+      [ngStyle]="{'margin-bottom': (schedules.length - 1) === i ? '210px' : '10px',
+                  'background-color': schedule.taken ? 'gray' : none  }"
+      (click)="selectSchedule(schedule,schedule.id)">
+      <ion-label> {{ schedule.hours }} </ion-label>
+    </ion-chip>
+  </div>
+</ion-content>

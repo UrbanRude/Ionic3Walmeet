@@ -1,0 +1,42 @@
+
+<ion-header>
+
+  <ion-navbar hideBackButton text-center padding>
+    <button ion-button icon-only clear (click)="exitAccount()">
+      <img src="assets/icon/error.svg" alt="" style="height: 3rem;">
+    </button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding-left padding-right class="wrapper-content">
+
+  <h1> <span class="color-title">Menú</span>/Notificaciones</h1>
+  <div style="display: flex; align-items: center;">
+    <img src="assets/icon/user.svg" alt="" style="height: 3rem; margin-right: 1rem;">
+    <h3>{{ userDetail.DisplayName }}</h3>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <img src="assets/icon/world.svg" alt="" style="height: 3rem; margin-right: 1rem;">
+    <h3>{{ userDetail.EmailAddress }}</h3>
+  </div>
+  <div style="display: flex; align-items: center;" (click)="logout()" >
+    <img src="assets/icon/logout.svg" alt="" style="height: 3rem; margin-right: 1rem;">
+    <h3>Cerrar sesión</h3>
+  </div>
+  
+  <h3 class="Notificacions">Notificaciones</h3>
+  <div *ngFor="let notificacion of listNotifications" (click)="completeNotification()">
+    <div class="segmentsRow">
+        <ion-icon name="radio-button-on" class="notificationButton"> </ion-icon>
+        <div class="segmentsLines">
+          <h4>¡No olvides hacer check-in!</h4>
+          <span>Check-in en la sala {{notificacion.meetingRoom}}</span>
+        </div>
+        <span>{{ notificacion.timeReservaton }}</span>
+    </div>
+  <hr style="background-color: gray;width: 90%;margin-top: 30px">  
+  </div>  
+
+</ion-content>

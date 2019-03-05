@@ -1,0 +1,137 @@
+.toolbar-background {
+    background-color: black !important;
+}
+
+.wrapper-content {
+    background-color: black !important;
+    color: white;
+}
+
+ion-content > .scroll-content{
+    padding-bottom: 60px;
+}
+
+.wrapper-footer {
+    height: 65px;
+    border-style: solid; 
+    border-radius: 10px; 
+    margin-left: 5px;
+    margin-right: 5px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    background-color: #212020;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+.title-blue {
+    color: color($colors,blue-walmart); 
+    margin-right: -5px;
+}
+
+.divider-location {
+    height: 3px;
+    background: color($colors,blue-walmart); 
+    width: 15px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.width-image {
+    width: 2.5rem;
+}
+
+.badge-notifications {
+    position: relative;
+    float: right;
+    right: 15%;
+    height: 15px;
+}
+
+.font-size-title {
+    font-size: 2rem;
+}
+
+button {
+    text-transform: initial !important;
+}
+
+.wrapper-loading-walmart {
+    display: flex; 
+    justify-content: center;
+}
+
+.img-loading {
+    width: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-wrapper {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.header-pages {
+    font-weight: 500; 
+    margin-left: 16px;
+}
+
+.title-white {
+    color: #fff;
+}
+
+.label-required{
+    color: red;
+}
+
+.wrapper-modal-header {
+    margin-top: 100px;
+    border-radius: 25px;
+    background-color: #282929 !important;
+}
+
+.wrapper-header {
+    border-radius: 25px;
+    background-color: #282929 !important;
+}
+
+.wrapper-modal-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper-modal-only-close-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row-reverse;
+}
+
+.wrapper-modal-content {
+    margin-top: 100px;
+    border-radius: 25px;
+    background-color: #282929 !important;
+}
+
+@media only screen and (min-width: 760px) {
+    
+    .wrapper-modal-header {
+        margin-top: 0px;
+    }
+    
+    .wrapper-modal-content {
+        margin-top: 0px;
+    }
+
+}

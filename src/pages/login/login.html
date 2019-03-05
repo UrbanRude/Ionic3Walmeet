@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <img src="assets/imgs/logo_walmart.svg" class="img-hader">
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="wrapper-content" style="overflow-y: auto;">
+  <ion-footer padding >
+      <label class="title" >Login</label>
+      <p>Ingresa tus datos para hacer reservaciones de salas en las instalaciones de Walmart</p>
+      <form [formGroup]="loginForm">
+        <ion-item class="input-login" no-lines>
+          <ion-label style="color:white">Dominio</ion-label>
+          <ion-select
+            cancelText="Cancelar"
+            okText="Ok"
+            formControlName="userDomain">
+            <ion-option *ngFor="let domain of domains" [value]="domain" >{{ domain.NetBiosName }}</ion-option>
+          </ion-select>
+        </ion-item>
+        <br>
+        <ion-item class="input-login" no-lines>
+          <ion-input placeholder="Usuario" formControlName="userWalmart"></ion-input>
+        </ion-item>
+        <br>
+        <ion-item class="input-login" no-lines>
+          <ion-input type="password" placeholder="Contraseña" formControlName="userPwd"></ion-input>
+        </ion-item>
+        <br>
+        <button ion-button full round color="blue-walmart" (click)="login()" >Entrar</button>
+      </form>
+  </ion-footer>
+</ion-content>
+

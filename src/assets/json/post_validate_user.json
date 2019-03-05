@@ -1,0 +1,21 @@
+{
+    "serviceEngineResponse": {
+      "headerResponse": {
+        "operationCode": "0",
+        "responseCode": "OK",
+        "responseDescription": "Servicio ejecutado correctamente!",
+        "reasons": "",
+        "responseTime": "0",
+        "responseDateTime": "2019-02-18T16:27:22.1368943+00:00"
+      },
+      "businessResponse": {
+        "ValidateUserResponse": {
+          "businessResponse": {
+            "DomaintItemsResult": {
+              "TokenString": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IlVyYmFubyBDZXJvbiBTYW50aWxsYW4gIChWZW5kb3IpIiwibmFtZWlkIjoiTVhcXHZuMDQ0amEiLCJlbWFpbCI6InZuMDQ0amFAZW1haWwud2FsLW1hcnQuY29tIiwiaXNzIjoiaHR0cDovL2lkZW50aXR5LnRva2VuaXNzdWVyLmNvbSIsImF1ZCI6Imh0dHA6Ly9hcHBsaWNhdGlvbi53YWxtYXJ0LmNvbSIsImV4cCI6MTU1MDUwOTA0MiwibmJmIjoxNTUwNTA3MjQyfQ.rZCiTZQZEeDfiMsZpSplsxUPvsh6wZvJv9BILbJl5a8"
+            }
+          }
+        }
+      }
+    }
+  }

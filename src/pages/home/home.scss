@@ -1,0 +1,158 @@
+page-home {
+    
+    .round-button-default {
+        border-radius: 50%;
+        text-align: center;
+        width: 42px;
+        height: 42px;
+        padding: 0px;
+        background-color: rgba(128, 128, 128, 0.5);
+        color: white;
+    }
+    
+    .round-button-selected {
+        background-color: orange;
+    }
+
+    .wapper-building-buttons {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: flex-start;
+    }
+    
+    .building-button {
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+    
+    .building-button-selected {
+        background-color: color($colors,secondary);
+    }
+
+    .wapper-accesorie {
+        display: flex; 
+        justify-content: space-between;
+    }
+    
+    .accesorie-default {
+        background-color: rgba(128, 128, 128, 0.5);
+    }
+
+    .accesorie-default .button-inner {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .accesorie-selected {
+        background-color: color($colors,danger)
+    }
+
+    .accesorie-selected .button-inner {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .accesorie-selected {
+        background-color: color($colors,danger)
+    }
+
+    .input-default {
+        background-color: white;
+        border-radius: 7px;
+        color: black;
+    }
+
+    .timeButtons {
+        display:flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .allDayButton {
+        display: flex;
+        flex-direction:column;
+        width: 47%;
+    }
+
+    ::-webkit-input-placeholder {
+        word-break: break-all;
+    }
+
+    .firstColumn {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+    }
+
+    .scheduleContainer {
+        display:flex;
+        width: 93%;
+        height:100%;
+        align-self: center;
+        background-color: white;
+        border-radius: 7px;
+        color: black;
+        flex-direction: row;
+    }
+
+    .wrapper-quantity-person {
+        display: flex; 
+        width: 100%; 
+        justify-content: flex-start; 
+        align-items: center; 
+        flex-wrap: wrap;
+    }
+
+    .input-description-person {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .item-height-person {
+        height: 80px;
+    }
+
+    .button-height-schedule {
+        //height: 100%;
+    }
+
+    .label-description {
+        font-size: 1rem;
+    }
+
+    .wrapper-input-user {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .wrapper-control-btn {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .btn-control {
+        margin-bottom: 40px;
+        margin-top: 30px;
+        width: 50%;
+        border-radius: 7px;
+    }
+
+    .btn-accesorie {
+        width: 47%;
+        height: 64px;
+    }
+
+    .img-btn-accesorie {
+        width: 37px; 
+        height: 37px;
+    }
+
+
+
+
+
+
+
+
+}

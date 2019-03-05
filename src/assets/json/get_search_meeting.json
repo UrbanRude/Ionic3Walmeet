@@ -1,0 +1,172 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 706,
+      "responseDate": 1550512432333,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "resultMeetingRoomSearchVO": [
+          {
+            "id": 5,
+            "meetingRoom": "THE BIG BANG THEORY",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 1000,
+            "meetingRoom": "H PARA HOMBRES",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 11,
+            "meetingRoom": "prueba2",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "1"
+          },
+          {
+            "id": 15,
+            "meetingRoom": "Prueba Mapa",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 45,
+            "meetingRoom": "Test Dev",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 665,
+            "meetingRoom": "Test Dev 2",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "VP",
+            "floor": "11"
+          },
+          {
+            "id": 667,
+            "meetingRoom": "Test Dev DEN MV1",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 673,
+            "meetingRoom": "Test Dev DEN MV2",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 674,
+            "meetingRoom": "Test Dev 3",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 680,
+            "meetingRoom": "Test Dev 4",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 682,
+            "meetingRoom": "Test Dev 5 M",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 688,
+            "meetingRoom": "Test Dev 5 W",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 696,
+            "meetingRoom": "Test Dev New",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 699,
+            "meetingRoom": "Prueba ok",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          },
+          {
+            "id": 708,
+            "meetingRoom": "Prueba Pizarron",
+            "building": "Diamante",
+            "capacity": "10",
+            "availability": "V",
+            "customSchedule": null,
+            "meetingRoomType": "Tradicional",
+            "floor": "11"
+          }
+        ]
+      }
+    },
+    "paginationResponse": {
+      "totalItems": 14
+    }
+  }

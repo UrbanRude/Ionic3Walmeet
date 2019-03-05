@@ -1,0 +1,90 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-label class="header-pages">
+        <span class="title-blue font-size-title">Disponibilidad</span>
+        <span class="title-white font-size-title">deSalas</span>
+    </ion-label>
+  </ion-navbar>
+  <ion-searchbar placeholder="Buscar" [(ngModel)]="inputSearchBar"
+  (ionInput)="onInput()"
+  (ionClear)="onClear()"></ion-searchbar>
+</ion-header>
+
+
+<ion-content padding-left padding-right class="wrapper-content ">
+  <div *ngIf="showAutoComplete">
+    <div *ngFor="let meetingRoom of listMeetingAutoComplete" (click)="selectedMeetingRoom( meetingRoom )" >
+      <ion-label>{{meetingRoom.name}}</ion-label>
+    </div>
+    <br>
+  </div>
+  <calendar 
+    [days-limit]="daysLimit"
+    (selected-day)="selectedDay($event)"></calendar>
+  <div class="wrapper-btn-consultar">
+    <button ion-button color="blue-walmart" full class="btn-consultar"
+      (click)="getMeetingById()" 
+      [disabled]="daySelected === null || meetingRoomSelected === null ">Consultar</button>
+  </div>
+
+  <hr class="divider"
+    *ngIf="meetingRoomDetails.infoHour.length >= 1">
+  <ion-label *ngIf="meetingRoomDetails.infoHour.length >= 1">Resultados de la consulta</ion-label>
+
+  <div 
+    class="wrapper-details-meetingroom"
+    *ngIf="meetingRoomDetails.infoHour.length >= 1">
+    <div class="content-meetingroom">
+      <div>
+        <ion-label>{{ meetingRoom.meetingRommName }}</ion-label>
+      </div>
+      <div class="content-details">
+        <div class="content-labels-details">
+          <ion-chip color="primary">  
+              <ion-icon name="contact" color="primary"></ion-icon>
+            <ion-label>{{ meetingRoom.capacity }}</ion-label>
+          </ion-chip>
+          <ion-chip color="primary">
+            <ion-label>{{ meetingRoom.buildingName }}</ion-label>
+          </ion-chip>
+        </div>
+        <div class="content-chips">
+          <ion-chip color="primary" *ngIf="meetingRoom.videoConference === 1">
+            <img class="videocallIcon" src="assets/icon/videocall.svg" />
+          </ion-chip>
+          <ion-chip color="primary" *ngIf="meetingRoom.telephone === 1">
+            <img class="equipmentIcon" src="assets/icon/telephone.svg" />
+          </ion-chip>
+          <ion-chip color="primary" *ngIf="meetingRoom.tv === 1">
+            <img class="equipmentIcon" src="assets/icon/television.svg" />
+          </ion-chip>
+          <ion-chip color="primary" *ngIf="meetingRoom.projector === 1">
+            <img class="equipmentIcon" src="assets/icon/projector.svg" />
+          </ion-chip>
+          <ion-chip color="primary" *ngIf="meetingRoom.monitor === 1">
+            <img class="equipmentIcon" src="assets/icon/monitor.svg" />
+          </ion-chip>
+        </div>
+        <div class="content-chips">
+          <ion-chip color="primary">
+              <ion-label>Piso {{ meetingRoom.floor }}</ion-label>
+          </ion-chip>            
+          <ion-chip color="danger" (click)="showMapMeetingRoom(meetingRoom)">
+              <ion-label>Ver plano de la sala</ion-label>
+          </ion-chip>            
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <table *ngIf="meetingRoomDetails.infoHour.length >= 1" class="table-schedule ">
+    <tr *ngFor="let detail of meetingRoomDetails.infoHour;let i = index" class="border-top-tr">
+      <td class="frist-column">{{detail.hour}} - {{ (meetingRoomDetails.infoHour.length - 1) === i ? finalHour : meetingRoomDetails.infoHour[i+1].hour }}</td>
+      <td [attr.rowspan]="detail.duration > 0 ? detail.duration : null" *ngIf="!(detail.available === 1 && detail.occupied)">
+        <div [ngClass]="{'wrapper-occupied-schedule': detail.duration > 0}" >{{detail.user}}</div> 
+      </td>
+    </tr>
+  </table>
+
+</ion-content>

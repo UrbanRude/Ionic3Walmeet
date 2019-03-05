@@ -1,0 +1,43 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 275,
+      "responseDate": 1550515635580,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "id": 5,
+        "buildingId": 6,
+        "buildingName": "Diamante",
+        "typeMeetingRoom": 1,
+        "statusCode": 1,
+        "meetingRommName": "THE BIG BANG THEORY",
+        "capacity": 10,
+        "numberTable": 2,
+        "projector": 0,
+        "monitor": 0,
+        "tv": 0,
+        "videoConference": 0,
+        "telephone": 0,
+        "ext": null,
+        "floor": "11",
+        "creatorUser": "vn0c1o2",
+        "createDate": null,
+        "modifierUser": null,
+        "modificationDate": null,
+        "authorizerVp": null,
+        "customScheduleId": 0,
+        "imageBase64": null,
+        "mobileWall": null,
+        "meetingRoomIdMobileWall": null,
+        "joinMeetingRoomId": null
+      }
+    },
+    "paginationResponse": null
+  }

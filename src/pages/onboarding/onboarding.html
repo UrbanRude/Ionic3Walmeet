@@ -1,0 +1,40 @@
+<ion-content padding class="wrapper-content">
+  <ion-slides #slides effect='fade'>
+    <ion-slide
+      style="background-color: black" 
+      *ngFor="let x of onboardingInfoArray;let i = index">
+      <div style="display: flex; flex-direction: column;">
+        <img class="img" src="{{x.img}}" alt="">
+        <h2 class="h2">{{ x.title }}</h2>
+        <p class="parragraph">{{ x.info }}</p>
+        <div *ngIf=" (i+1) >= onboardingInfoArray.length" >
+          <div class="icono2">
+            <img src="assets/icon/history.svg" alt="" style="width: 7%">
+            <label style="color:white;">Consulta de reservaciones</label>      
+          </div>
+          <div class="icono2">
+            <img src="assets/icon/magnifying-glass.svg" alt="" style="width: 7%">
+            <label style="color:white;">Consulta la disponibilidad de una sala</label>
+          </div>
+          <div class="icono2">
+            <img src="assets/icon/walmart_menu.svg" alt="" style="width: 7%">
+            <label style="color:white;">Pantalla principal permite reservar salas</label>
+          </div>
+          <div class="icono2">
+            <img src="assets/icon/qr-code.svg" alt="" style="width: 7%">
+            <label style="color:white;">Check-in con lector de Código QR</label>
+          </div>
+          
+          <div class="icono2">
+            <img src="assets/icon/menu.svg" alt="" style="width: 7%">
+            <label style="color:white;">Menú y notificaciones</label>
+          </div>
+        </div>
+        <button class="button" *ngIf=" !((i+1) >= onboardingInfoArray.length)" (click)="nextSlide()">Siguiente</button>
+        <button class="button" *ngIf=" (i+1) >= onboardingInfoArray.length"  (click)="skipOnboarding()">Finalizar</button>
+      </div>
+    </ion-slide> 
+
+  </ion-slides>
+
+</ion-content>

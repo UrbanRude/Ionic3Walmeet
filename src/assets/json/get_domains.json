@@ -1,0 +1,109 @@
+{
+    "GetDomainsResponse": {
+      "headerResponse": {
+        "operationCode": "0",
+        "responseCode": "OK ",
+        "responseDescription": "Servicio ejecutado correctamente!",
+        "reasons": "",
+        "responseTime": "0",
+        "responseDateTime": "2019-02-15T17:38:14.954861+00:00"
+      },
+      "businessResponse": [
+        {
+          "DomainName": "AR.Wal-Mart.com",
+          "NCName": "DC=AR,DC=Wal-Mart,DC=com",
+          "NetBiosName": "AR"
+        },
+        {
+          "DomainName": "AR.Wal-Mart.com",
+          "NCName": "DC=AR,DC=Wal-Mart,DC=com",
+          "NetBiosName": "AXITY"
+        },
+        {
+          "DomainName": "BR.Wal-Mart.com",
+          "NCName": "DC=BR,DC=Wal-Mart,DC=com",
+          "NetBiosName": "BR"
+        },
+        {
+          "DomainName": "ca.Wal-Mart.com",
+          "NCName": "DC=ca,DC=Wal-Mart,DC=com",
+          "NetBiosName": "CA"
+        },
+        {
+          "DomainName": "CAM.Wal-Mart.com",
+          "NCName": "DC=CAM,DC=Wal-Mart,DC=com",
+          "NetBiosName": "CAM"
+        },
+        {
+          "DomainName": "CL.Wal-Mart.com",
+          "NCName": "DC=CL,DC=Wal-Mart,DC=com",
+          "NetBiosName": "CL"
+        },
+        {
+          "DomainName": "Cloud.Wal-Mart.com",
+          "NCName": "DC=Cloud,DC=Wal-Mart,DC=com",
+          "NetBiosName": "CLOUD"
+        },
+        {
+          "DomainName": "CN.Wal-Mart.com",
+          "NCName": "DC=CN,DC=Wal-Mart,DC=com",
+          "NetBiosName": "CN"
+        },
+        {
+          "DomainName": "EMEA.Wal-Mart.com",
+          "NCName": "DC=EMEA,DC=Wal-Mart,DC=com",
+          "NetBiosName": "EMEA"
+        },
+        {
+          "DomainName": "homeoffice.Wal-Mart.com",
+          "NCName": "DC=homeoffice,DC=Wal-Mart,DC=com",
+          "NetBiosName": "HOMEOFFICE"
+        },
+        {
+          "DomainName": "IN.Wal-Mart.com",
+          "NCName": "DC=IN,DC=Wal-Mart,DC=com",
+          "NetBiosName": "IN"
+        },
+        {
+          "DomainName": "JP.Wal-Mart.com",
+          "NCName": "DC=JP,DC=Wal-Mart,DC=com",
+          "NetBiosName": "JP"
+        },
+        {
+          "DomainName": "mx.wal-mart.com",
+          "NCName": "DC=mx,DC=Wal-Mart,DC=com",
+          "NetBiosName": "MX"
+        },
+        {
+          "DomainName": "PR.Wal-Mart.com",
+          "NCName": "DC=PR,DC=Wal-Mart,DC=com",
+          "NetBiosName": "PR"
+        },
+        {
+          "DomainName": "UK.Wal-Mart.com",
+          "NCName": "DC=UK,DC=Wal-Mart,DC=com",
+          "NetBiosName": "UK"
+        },
+        {
+          "DomainName": "US.wal-mart.com",
+          "NCName": "DC=US,DC=Wal-Mart,DC=com",
+          "NetBiosName": "US"
+        },
+        {
+          "DomainName": "Wal-Mart.com",
+          "NCName": "DC=Wal-Mart,DC=com",
+          "NetBiosName": "WAL-MART"
+        },
+        {
+          "DomainName": "WMCT.Wal-Mart.com",
+          "NCName": "DC=WMCT,DC=Wal-Mart,DC=com",
+          "NetBiosName": "WMCT"
+        },
+        {
+          "DomainName": "WMSC.Wal-Mart.com",
+          "NCName": "DC=WMSC,DC=Wal-Mart,DC=com",
+          "NetBiosName": "WMSC"
+        }
+      ]
+    }
+  }

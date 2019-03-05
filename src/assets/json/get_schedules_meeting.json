@@ -1,0 +1,145 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 39,
+      "responseDate": 1550512483459,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "resultMeetingRoomSearchVO": [
+          {
+            "id": 2,
+            "hours": "7:30-8:00",
+            "taken": false
+          },
+          {
+            "id": 3,
+            "hours": "8:00-8:30",
+            "taken": false
+          },
+          {
+            "id": 4,
+            "hours": "8:30-9:00",
+            "taken": false
+          },
+          {
+            "id": 5,
+            "hours": "9:00-9:30",
+            "taken": false
+          },
+          {
+            "id": 6,
+            "hours": "9:30-10:00",
+            "taken": false
+          },
+          {
+            "id": 7,
+            "hours": "10:00-10:30",
+            "taken": false
+          },
+          {
+            "id": 8,
+            "hours": "10:30-11:00",
+            "taken": false
+          },
+          {
+            "id": 9,
+            "hours": "11:00-11:30",
+            "taken": false
+          },
+          {
+            "id": 10,
+            "hours": "11:30-12:00",
+            "taken": false
+          },
+          {
+            "id": 11,
+            "hours": "12:00-12:30",
+            "taken": false
+          },
+          {
+            "id": 12,
+            "hours": "12:30-13:00",
+            "taken": false
+          },
+          {
+            "id": 13,
+            "hours": "13:00-13:30",
+            "taken": false
+          },
+          {
+            "id": 14,
+            "hours": "13:30-14:00",
+            "taken": false
+          },
+          {
+            "id": 15,
+            "hours": "14:00-14:30",
+            "taken": false
+          },
+          {
+            "id": 16,
+            "hours": "14:30-15:00",
+            "taken": false
+          },
+          {
+            "id": 17,
+            "hours": "15:00-15:30",
+            "taken": false
+          },
+          {
+            "id": 18,
+            "hours": "15:30-16:00",
+            "taken": false
+          },
+          {
+            "id": 19,
+            "hours": "16:00-16:30",
+            "taken": false
+          },
+          {
+            "id": 20,
+            "hours": "16:30-17:00",
+            "taken": false
+          },
+          {
+            "id": 21,
+            "hours": "17:00-17:30",
+            "taken": false
+          },
+          {
+            "id": 22,
+            "hours": "17:30-18:00",
+            "taken": false
+          },
+          {
+            "id": 23,
+            "hours": "18:00-18:30",
+            "taken": false
+          },
+          {
+            "id": 24,
+            "hours": "18:30-19:00",
+            "taken": false
+          },
+          {
+            "id": 25,
+            "hours": "19:00-19:30",
+            "taken": false
+          },
+          {
+            "id": 1,
+            "hours": "7:00-7:30",
+            "taken": true
+          }
+        ]
+      }
+    },
+    "paginationResponse": null
+  }

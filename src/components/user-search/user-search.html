@@ -1,0 +1,19 @@
+
+
+<ion-header class="wrapper-modal-header" >
+    <div class="wrapper-modal-only-close-control">
+      <button ion-button icon-only clear color="light" (click)="cancel()">
+          <ion-icon name="close"></ion-icon>
+      </button>
+    </div>
+</ion-header>
+
+<ion-content padding-left padding-right class="wrapper-modal-content">
+  <hr class="divider">
+  <div
+    class="wrapper-users" 
+    *ngFor="let user of users" (click)="selectUser(user)" >
+    <h4>{{ user.FirstName }} {{ user.LastName }}</h4>
+    <h6>{{ user.EmailAddress }}</h6>
+  </div>
+</ion-content>

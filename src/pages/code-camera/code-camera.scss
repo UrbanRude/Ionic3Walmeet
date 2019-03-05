@@ -1,0 +1,59 @@
+page-code-camera {
+
+    
+    .wrapper-camera {
+        height: 91%;
+        width: 100%;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: none transparent;
+    }
+
+    .frame {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        border-style: dashed;
+        border-radius: 10px;
+        border-color: #1B8FD1;
+        background: none transparent;
+        border-width: 3px;
+    }
+
+    .wrapper-info {
+        height: 8%; 
+        background: black;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0px;
+        padding: 12px;
+        margin-right: -5%;
+        margin-left: -5%;
+    }
+
+    @media only screen and (max-width: 320px) {
+    
+        .wrapper-info {
+            height: 7%;
+            width: 114%;
+            margin-left: -7%;
+        }
+
+    }
+
+}

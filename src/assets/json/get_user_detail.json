@@ -1,0 +1,72 @@
+{
+    "GetUserDetailResponse": {
+      "headerResponse": {
+        "operationCode": "0",
+        "responseCode": "OK",
+        "responseDescription": "Servicio ejecutado correctamente!",
+        "reasons": "",
+        "responseTime": "0",
+        "responseDateTime": "2019-02-18T16:27:22.8888563+00:00"
+      },
+      "businessResponse": {
+        "DomaintItemsResult": {
+          "UserDetail": {
+            "FirstName": "Urban",
+            "MiddleName": "",
+            "LastName": "Ceron Santillan",
+            "LoginName": "vn044ja",
+            "LoginNameWithDomain": "MX\\vn044ja",
+            "StreetAddress": "",
+            "City": "",
+            "State": "",
+            "PostalCode": "",
+            "Country": "",
+            "EmailAddress": "vn044ja@email.wal-mart.com",
+            "Title": "",
+            "Manager": "CN=Aleyda Robertina Hernandez Gonzalez,OU=Toreo,OU=Homeoffice,DC=mx,DC=Wal-Mart,DC=com",
+            "ManagerName": "Aleyda Robertina Hernandez Gonzalez",
+            "PrimaryDomain": "OU=Homeoffice",
+            "Department": "",
+            "DepartmentNumber": "",
+            "IdentificationNumber": "",
+            "TeamName": "",
+            "BusinessPhone": "",
+            "PodLocation": "TOREO (NET)",
+            "PreferredLanguage": "es_MX",
+            "WhenCreated": "11/02/2019 06:08:13 p. m.",
+            "DisplayName": "Urbano Ceron Santillan  (Vendor)",
+            "AccountStatus": "",
+            "BusinessUnitNumber": "",
+            "BusinessUnitType": "",
+            "ChargeBusinessUnitNumber": "",
+            "ChargeCountryCode": "",
+            "Division": "",
+            "EmployeeNumber": "",
+            "EmploymentStatus": "",
+            "FullTimePartTimeCode": "",
+            "FullTimePartTimeEffDate": "",
+            "JobCode": "",
+            "PositionCode": "",
+            "SystemJobCodes": "",
+            "Type": "V",
+            "UniqueIdentifier": "",
+            "Shift": ""
+          },
+          "UserGroups": [
+            {
+              "ActiveDirectoryGroup": "PWV_Users_MX"
+            },
+            {
+              "ActiveDirectoryGroup": "AWO-MX-HO-BYOD"
+            },
+            {
+              "ActiveDirectoryGroup": "MX PWD Complexity"
+            },
+            {
+              "ActiveDirectoryGroup": "TOKEN_RADIUS_MX"
+            }
+          ]
+        }
+      }
+    }
+  }

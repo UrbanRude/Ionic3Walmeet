@@ -1,0 +1,29 @@
+page-account {
+    
+    .color-title {
+        color: color($colors,blue-walmart);
+    }
+
+    h6{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Notificacions{
+        margin-top: 180px;
+    }
+
+    .segmentsRow{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .segmentsLines{
+        flex-direction:column;
+    }
+
+    .notificationButton{
+        color: red;
+    }
+}

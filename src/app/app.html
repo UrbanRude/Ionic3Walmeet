@@ -1,0 +1,12 @@
+<ion-nav #content [root]="rootPage"></ion-nav>
+<ion-footer *ngIf="isLogged">
+    <ion-toolbar>
+        <div class="wrapper-footer">
+            <button style="background-color: transparent;" *ngFor="let link of footer;let i = index" (click)="goPage(link)" tabBadge="3">
+                <img src="{{ link.img }}" class="width-image">
+                <div class="divider-location" *ngIf="link.page === locationPage"></div>
+                <ion-badge color="danger" class="badge-notifications" *ngIf="dotNotification && ((i+1) >= footer.length)">{{ stringEmpty }}</ion-badge>
+            </button>
+        </div>
+    </ion-toolbar>
+</ion-footer>

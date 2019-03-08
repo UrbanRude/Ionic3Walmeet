@@ -1,7 +1,0 @@
-{
-  "name": "Ionic3Base",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}

@@ -1,0 +1,17 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 40,
+      "responseDate": 1550507243210,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": 1
+    },
+    "paginationResponse": null
+  }

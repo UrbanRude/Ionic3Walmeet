@@ -1,0 +1,34 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 268,
+      "responseDate": 1550512529734,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "mettings": [
+          {
+            "meetingRoomId": 5,
+            "id": 709,
+            "meetingRoomName": "THE BIG BANG THEORY",
+            "floor": "11",
+            "buildingName": "Diamante",
+            "capacity": "10",
+            "reservationDate": "20/02/2019",
+            "reservationHour": "7:30 - 8:00",
+            "status": "Sala apartada",
+            "meetingRoomType": "Tradicional"
+          }
+        ]
+      }
+    },
+    "paginationResponse": {
+      "totalItems": 1
+    }
+  }

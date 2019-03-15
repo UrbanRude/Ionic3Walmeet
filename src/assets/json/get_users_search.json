@@ -1,0 +1,41 @@
+{
+    "SearchUserResponse": {
+      "headerResponse": {
+        "operationCode": "0",
+        "responseCode": "OK",
+        "responseDescription": "Servicio ejecutado correctamente!",
+        "reasons": "",
+        "responseTime": "0",
+        "responseDateTime": "2019-02-18T17:51:35.108824+00:00"
+      },
+      "businessResponse": [
+        {
+          "FirstName": "Krytal",
+          "MiddleName": "",
+          "LastName": "Lanesmith",
+          "LoginName": "vn0400h",
+          "EmailAddress": "vn0400h@email.wal-mart.com",
+          "Title": "",
+          "DisplayName": "Krytal Lanesmith"
+        },
+        {
+          "FirstName": "Saheba",
+          "MiddleName": "",
+          "LastName": "Vasdev",
+          "LoginName": "vn0406g",
+          "EmailAddress": "Saheba.Vasdev@walmart.com",
+          "Title": "CONTRACTOR FOR MU SIGMA",
+          "DisplayName": "Saheba Vasdev - Vendor"
+        },
+        {
+          "FirstName": "Hilari",
+          "MiddleName": "",
+          "LastName": "Dowell",
+          "LoginName": "vn04087",
+          "EmailAddress": "vn04087@email.wal-mart.com",
+          "Title": "",
+          "DisplayName": "Hilari Dowell"
+        }
+      ]
+    }
+  }

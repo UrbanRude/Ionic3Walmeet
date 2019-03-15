@@ -1,0 +1,42 @@
+page-login {
+    
+    $text-input-placeholder-color:white;
+    $select-md-placeholder-color:white;
+    $select-md-icon-color:white;
+
+    .img-hader {
+        width: 249px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .wrapper-controls-login{
+        height: 100%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .label-select {
+        color: white;
+    }
+
+    .input-login {
+        background-color: #123552;
+        border-radius: 7px;
+        color: white;
+    }
+
+    ::-webkit-input-placeholder {
+        color: white !important;
+    }
+
+    .select-icon-inner {
+        color: white !important;
+    }
+
+}

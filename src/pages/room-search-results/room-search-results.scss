@@ -1,0 +1,90 @@
+page-room-search-results {
+
+    .wrapper-details-meetingroom-available {
+        display: flex;  
+        padding-left: 10px; 
+        border-left-style: solid; 
+        border-color: color($colors,secondary); 
+        margin-bottom: 15px;
+    }
+
+    .wrapper-details-meetingroom-busy {
+        display: flex;  
+        padding-left: 10px; 
+        border-left-style: solid; 
+        border-color: color($colors,yellow-walmart); 
+        margin-bottom: 15px;
+    }
+    
+    .wrapper-details-meetingroom-unavailable {
+        display: flex;  
+        padding-left: 10px; 
+        border-left-style: solid; 
+        border-color: color($colors,danger); 
+        margin-bottom: 15px;
+    }
+
+    .content-details-meetingroom {
+        display: flex; 
+        flex-direction: column; 
+        max-width: 50%;
+    }
+
+    .content-meeting-labels {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .content-meetings-titles {
+        display: flex;
+    }
+
+    .wrapper-icons-details {
+        display: flex; 
+        flex-wrap: wrap;   
+    }
+
+    .videocallIcon{
+        height: 12px;
+        width: 40px;
+        margin: auto;
+        fill: white;
+    }
+
+    .equipmentIcon{
+        height: 19px;
+        width: 40px;
+        margin: auto;
+    }
+
+    .wrapper-labels-floor {
+        display: flex; flex-wrap: wrap;
+    }
+
+    .wrapper-details-schedule {
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        margin-left: 10px;
+    }
+
+    .color-label-schedule {
+        color: white;
+    }
+
+    @media only screen and (min-width: 760px) {
+    
+        .content-meeting-available {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+    }
+
+
+
+
+}

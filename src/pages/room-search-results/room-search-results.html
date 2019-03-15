@@ -1,0 +1,77 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <span class="title-blue font-size-title">{{ daysName[dateTitle.getDay()] }}</span>
+      <span class="title-white font-size-title">{{ dateTitle.getDate() }}de{{ months[dateTitle.getMonth()] }}</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="wrapper-content" padding-left padding-right style="margin-bottom: 40px;">
+  <div class="content-meeting-available">
+    <div 
+      *ngFor="let room of listRoom"
+      [ngClass]="{'wrapper-details-meetingroom-available': room.availability === 'V' || room.availability === null ,
+                  'wrapper-details-meetingroom-busy': room.availability === 'A',
+                  'wrapper-details-meetingroom-unavailable': room.availability === 'R'}">
+      <div class="content-details-meetingroom">
+        <div>
+          <ion-label>{{ room.meetingRoomType }}</ion-label>
+          <ion-label>{{ room.meetingRoom }}</ion-label>
+        </div>
+        <div class="content-meeting-labels">
+          <div class="content-meetings-titles">
+            <ion-chip color="primary">  
+                <ion-icon name="contact" color="primary"></ion-icon>
+              <ion-label>{{ room.capacity }}</ion-label>
+            </ion-chip>
+            <ion-chip color="primary">
+              <ion-label>{{ room.building }}</ion-label>
+            </ion-chip>
+          </div>
+          <div class="wrapper-icons-details">
+            <ion-chip color="primary" *ngIf="detailsMeeting.videoConference === 1">
+              <img class="videocallIcon" src="assets/icon/videocall.svg" />
+            </ion-chip>
+            <ion-chip color="primary" *ngIf="detailsMeeting.telephone === 1">
+              <img class="equipmentIcon" src="assets/icon/telephone.svg" />
+            </ion-chip>
+            <ion-chip color="primary" *ngIf="detailsMeeting.tv === 1">
+              <img class="equipmentIcon" src="assets/icon/television.svg" />
+            </ion-chip>
+            <ion-chip color="primary" *ngIf="detailsMeeting.projector === 1">
+              <img class="equipmentIcon" src="assets/icon/projector.svg" />
+            </ion-chip>
+            <ion-chip color="primary" *ngIf="detailsMeeting.monitor === 1">
+              <img class="equipmentIcon" src="assets/icon/monitor.svg" />
+            </ion-chip>
+          </div>
+          <div class="wrapper-labels-floor">
+            <ion-chip color="primary">
+                <ion-label>Piso {{ room.floor }}</ion-label>
+            </ion-chip>            
+            <ion-chip color="danger" (click)="showMapMeetingRoom(room)">
+                <ion-label>Ver plano de la sala</ion-label>
+            </ion-chip>            
+          </div>
+      </div>
+      </div>
+      <div class="wrapper-details-schedule">
+        <div>
+          <ion-label *ngIf="detailsMeeting.isAllDay !== 1">Ver horarios</ion-label>
+          <ion-label *ngIf="detailsMeeting.isAllDay === 1">Horario</ion-label>
+        </div>
+        <button ion-button small color="blue-walmart" (click)="getSchedule( room )" *ngIf="!(detailsMeeting.isAllDay === 1)">Ver horarios</button>
+        <div>
+          <ion-chip *ngIf="detailsMeeting.isAllDay === 1" color="primary" class="color-label-schedule">
+            <ion-label>7:00 a 19:00</ion-label>
+          </ion-chip>   
+        </div>
+        <button ion-button small color="secondary" 
+          *ngIf="room.id === idSelectedMeetingRoom || detailsMeeting.isAllDay === 1 "
+          (click)="showConfirmationReservation( room )">Confirmar reservación</button>
+      </div>
+    </div>
+  </div>
+</ion-content>

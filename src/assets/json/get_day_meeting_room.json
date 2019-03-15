@@ -1,0 +1,171 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 55,
+      "responseDate": 1550515635876,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "infoHour": [
+          {
+            "hour": "7:00",
+            "user": "Urbano Ceron Santillan  (El mero mero)",
+            "duration": "4",
+            "available": 0
+          },
+          {
+            "hour": "7:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "8:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "8:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "9:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "9:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "10:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "10:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "11:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "11:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "12:00",
+            "user": "Jonathan Zamora Escalona  (Vendor)",
+            "duration": "2",
+            "available": 0
+          },
+          {
+            "hour": "12:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "13:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "13:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "14:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "14:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "15:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "15:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "16:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "16:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "17:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "17:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "18:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "18:30",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          },
+          {
+            "hour": "19:00",
+            "user": null,
+            "duration": "0",
+            "available": 1
+          }
+        ],
+        "allDay": false
+      }
+    },
+    "paginationResponse": null
+  }

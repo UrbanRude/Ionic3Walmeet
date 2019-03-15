@@ -1,0 +1,29 @@
+<ion-label>{{ textLabel }}<span *ngIf="require" class="label-required">*</span></ion-label>
+<div class="wrapper-calendar">
+  <label class="title-month">{{ month }} {{ year }}</label>
+  <div class="wrapper-week">
+    <div *ngFor="let shortName of nameDays" class="wide-day">
+      <span class="title-day">{{ shortName }}</span>
+    </div>
+  </div>
+  <ion-slides 
+    class="wrapper-slides" 
+    #slides>
+    <ion-slide 
+      *ngFor="let week of weeks">
+      <div class="wrapper-days">
+          <div 
+            *ngFor="let day of week;let i = index" 
+            class="wide-day" 
+            (click)="selectedDay(day,i)" >
+              <label 
+                class="day-number" 
+                [ngClass]="{ 'day-number':availableDay(day),'day-number-last-month':!availableDay(day),'selected-day': positionSelectedDay == i && positionIndexSlide == realIndexSlide }"
+                >{{ day.getDate() }}</label>
+            <div [ngClass]="{ 'divider-white':toDay(day),'divider-transparent':!toDay(day) }"></div>
+          </div>  
+        </div>
+    </ion-slide>
+  </ion-slides>
+</div>
+

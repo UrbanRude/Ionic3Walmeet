@@ -1,0 +1,25 @@
+action-modal {
+
+    .divider {
+        background-color: white;
+        height: 1px;
+    }
+
+    .title-modal {
+        text-align: center; 
+        margin-bottom: 0px;
+    }
+
+    .wrapper-image-modal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+    }
+
+    .image-modal {
+        width: 90%; 
+        height: 75%;   
+    }
+
+}

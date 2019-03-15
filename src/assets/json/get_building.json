@@ -1,0 +1,202 @@
+{
+    "zeusHeaderResponse": {
+      "operationCode": null,
+      "businessResponseCode": "BUSINESS_001",
+      "responseDescription": "Servicio de negocio ejecutado exitosamente",
+      "responseTime": 483,
+      "responseDate": 1550252528018,
+      "stacktrace": null,
+      "httpStatusCode": 200,
+      "errors": null,
+      "businessSuccess": true
+    },
+    "businessResponse": {
+      "data": {
+        "buildingTableVO": [
+          {
+            "id": 6,
+            "name": "Diamante",
+            "administratorId": {
+              "id": 6,
+              "typeAdminId": 1,
+              "adminUserId": "vn044ja",
+              "adminUserName": "Urbano Ceron Santillan  (Vendor)",
+              "adminUserMail": "vn044ja@email.wal-mart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 10,
+            "name": "NET",
+            "administratorId": {
+              "id": 25,
+              "typeAdminId": 1,
+              "adminUserId": "mn0orte",
+              "adminUserName": "Norma Ortega Pineda",
+              "adminUserMail": "Norma.Ortega@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 13,
+            "name": "VET",
+            "administratorId": {
+              "id": 28,
+              "typeAdminId": 1,
+              "adminUserId": "vvc0006",
+              "adminUserName": "Violeta Castillo Dorado",
+              "adminUserMail": "Violeta.Castillo@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 16,
+            "name": "LaGrange",
+            "administratorId": {
+              "id": 31,
+              "typeAdminId": 1,
+              "adminUserId": "mvavila",
+              "adminUserName": "Veronica Avila Isidoro",
+              "adminUserMail": "Veronica.Avila@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 20,
+            "name": "Edificio Prueba",
+            "administratorId": {
+              "id": 32,
+              "typeAdminId": 1,
+              "adminUserId": "nne0001",
+              "adminUserName": "Nestor Emmanuel Ortiz Galicia",
+              "adminUserMail": "nne0001@email.wal-mart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 21,
+            "name": "Azcapotzalco",
+            "administratorId": {
+              "id": 33,
+              "typeAdminId": 1,
+              "adminUserId": "mgainig",
+              "adminUserName": "Gabriela Amparo Iniguez Vargas",
+              "adminUserMail": "Gabriela.Iniguez@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 22,
+            "name": "Félix Cuevas",
+            "administratorId": {
+              "id": 34,
+              "typeAdminId": 1,
+              "adminUserId": "maltova",
+              "adminUserName": "Ana Laura Tovar Robles",
+              "adminUserMail": "Ana.Tovar@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 25,
+            "name": "Diamante 1",
+            "administratorId": {
+              "id": 37,
+              "typeAdminId": 1,
+              "adminUserId": "nnv0004",
+              "adminUserName": "Nancy Verónica Ramírez González",
+              "adminUserMail": "Nancy.Ramirez3@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          },
+          {
+            "id": 27,
+            "name": "Bolivar",
+            "administratorId": {
+              "id": 45,
+              "typeAdminId": 1,
+              "adminUserId": "mc2garc",
+              "adminUserName": "Carlos Garcia Hernandez",
+              "adminUserMail": "Carlos.Garcia4@walmart.com",
+              "creatorUser": null,
+              "domain": null,
+              "token": null,
+              "role": null,
+              "supplier": false,
+              "test": false
+            },
+            "creatorUser": null,
+            "token": null,
+            "test": false
+          }
+        ]
+      }
+    },
+    "paginationResponse": {
+      "totalItems": 9
+    }
+  }

@@ -1,0 +1,11 @@
+<ion-header class="wrapper-header" >
+    <div class="wrapper-modal-only-close-control">
+      <button ion-button icon-only clear color="light" (click)="cancel()">
+          <ion-icon name="close"></ion-icon>
+      </button>
+    </div>
+</ion-header>
+
+<ion-content padding-left padding-right class="content-image-map">
+  <img [src]="mapBase64" class="map-img" imageViewer>  
+</ion-content>

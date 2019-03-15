@@ -1,0 +1,41 @@
+page-consult-reservations {
+    .searchBar{
+        padding-left: 16px; 
+        padding-right: 16px;
+    }
+    .reservations{
+        border-left-style: solid;
+        border-color: #1B8FD1;
+    }
+    .cancelledMeeting{
+        opacity: 0.5;
+        border-left-style: solid;
+        border-color: gray;
+    }
+    .headerReservation{
+        margin-left:12px;
+    }
+    .reservationIcons{
+        margin-left:12px;
+    }
+
+    .videocallIcon{
+        height: 12px;
+        width: 40px;
+        margin: auto;
+        fill: white;
+    }
+    .equipmentIcon{
+        height: 19px;
+        width: 40px;
+        margin: auto;
+        fill: white;
+    }
+    .videocall{
+        fill:white;
+    }
+    .optionButtons{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+}

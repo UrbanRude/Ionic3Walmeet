@@ -1,0 +1,25 @@
+<ion-header [ngClass]="{'wrapper-input-modal-header': !showKeyboard,
+                        'open-keyboard-input-modal-header': showKeyboard } " >
+    <div class="wrapper-modal-controls">
+        <button ion-button icon-only clear color="light" (click)="close()">
+            <ion-icon name="close"></ion-icon>
+        </button>
+        <button ion-button icon-only clear color="secondary" (click)="send()">
+          ENVIAR
+        </button>
+      </div>
+    <hr class="divider">
+</ion-header>
+
+<ion-content padding-left padding-right [ngClass]="{'wrapper-input-modal-content': !showKeyboard,
+                                                    'open-keyboard-input-modal-content': showKeyboard }">
+  <ion-item class="label-default" no-lines>
+    <ion-label>{{ title }}</ion-label>
+  </ion-item>
+  <ion-item class="input-default">
+      <ion-textarea 
+      [placeholder]="placeholder" 
+      [(ngModel)]="text"
+      maxlength="100"></ion-textarea>
+  </ion-item>
+</ion-content>  
